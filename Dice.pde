@@ -10,15 +10,15 @@ int total = 0;
   {
 background(173, 216, 230);
 textSize(64);
-fill(255);
-text("Total: " + total,0,50);
-    
+fill(255);    
 for(int amogus = 0; amogus <= 500; amogus+=100){
  for(int amongus = -100; amongus <= 400; amongus +=100){
    Die amongDice = new Die(amongus,amogus); 
    amongDice.show();
  }
 }
+ text("Total: " + total,0,50);
+
   }
   void mousePressed()
   {
